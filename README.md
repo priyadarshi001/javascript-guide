@@ -337,9 +337,11 @@ Other Style Guides
     const copy = { ...original, c: 3 }; // copy => { a: 1, b: 2, c: 3 }
 
     const { a, ...noA } = copy; // noA => { b: 2, c: 3 }
-    ```
+    
     // rest operator--> always at the end of parameters; Used to accept any nos. of parameters
     // spread--> expands an array into a list; Usually used to pass an array to a function which requires a list of parameters 
+    ```
+    
 
 **[⬆ back to top](#table-of-contents)**
 
