@@ -198,6 +198,10 @@ Other Style Guides
       name: 'San Francisco',
       [getKey('enabled')]: true,
     };
+    
+    // accessing dynamic property
+    console.log(obj[getKey('enabled')]);    // true
+    console.log(obj[getKey('xyz')]);    // undefined
     ```
 
   <a name="es6-object-shorthand"></a><a name="3.5"></a>
